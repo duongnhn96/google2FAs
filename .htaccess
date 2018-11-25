@@ -1,0 +1,14 @@
+
+RewriteEngine on
+RewriteRule ^/$ index.php [L]
+RewriteRule ^Dang-nhap.html/?$ index.php?act=login    [L]
+RewriteRule ^Dang-Xuat.html/?$ index.php?act=logout    [L]
+RewriteRule ^Dang-ky.html/?$ index.php?act=register [L]
+RewriteRule ^Dashboard.html/?$ index.php?act=dashboard [L]
+RewriteRule ^Login-check.html/?$ index.php?act=logincheck [L]
+RewriteRule ^QRcode-check.html/?$ index.php?act=qrcheck [L]
+
+
+
+DirectoryIndex    index.php
+Options -Indexes
